@@ -1,0 +1,338 @@
+[
+    {
+        "input": [
+            "A",
+            "B"
+        ],
+        "output": "C",
+        "function": [
+            "TriangleAngle",
+            "from_A_B"
+        ]
+    },
+    {
+        "input": [
+            "A",
+            "C"
+        ],
+        "output": "B",
+        "function": [
+            "TriangleAngle",
+            "from_A_B"
+        ]
+    },
+    {
+        "input": [
+            "B",
+            "C"
+        ],
+        "output": "A",
+        "function": [
+            "TriangleAngle",
+            "from_A_B"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "b",
+            "c",
+            "p"
+        ],
+        "output": "S",
+        "function": [
+            "TriangleArea",
+            "from_a_b_c_p"
+        ]
+    },
+    {
+        "input": [
+            "b",
+            "c",
+            "A"
+        ],
+        "output": "a",
+        "function": [
+            "TriangleEdge",
+            "from_a_b_C"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "c",
+            "B"
+        ],
+        "output": "b",
+        "function": [
+            "TriangleEdge",
+            "from_a_b_C"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "b",
+            "C"
+        ],
+        "output": "c",
+        "function": [
+            "TriangleEdge",
+            "from_a_b_C"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "b",
+            "c"
+        ],
+        "output": "p",
+        "function": [
+            "TriangleHalfPerimeter",
+            "from_a_b_c"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "ha"
+        ],
+        "output": "S",
+        "function": [
+            "TriangleArea",
+            "from_a_ha"
+        ]
+    },
+    {
+        "input": [
+            "b",
+            "hb"
+        ],
+        "output": "S",
+        "function": [
+            "TriangleArea",
+            "from_a_ha"
+        ]
+    },
+    {
+        "input": [
+            "c",
+            "hc"
+        ],
+        "output": "S",
+        "function": [
+            "TriangleArea",
+            "from_a_ha"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "S"
+        ],
+        "output": "ha",
+        "function": [
+            "TriangleHeight",
+            "from_a_S"
+        ]
+    },
+    {
+        "input": [
+            "b",
+            "S"
+        ],
+        "output": "hb",
+        "function": [
+            "TriangleHeight",
+            "from_a_S"
+        ]
+    },
+    {
+        "input": [
+            "c",
+            "S"
+        ],
+        "output": "hc",
+        "function": [
+            "TriangleHeight",
+            "from_a_S"
+        ]
+    },
+    {
+        "input": [
+            "ha",
+            "S"
+        ],
+        "output": "a",
+        "function": [
+            "TriangleEdge",
+            "from_ha_S"
+        ]
+    },
+    {
+        "input": [
+            "hb",
+            "S"
+        ],
+        "output": "b",
+        "function": [
+            "TriangleEdge",
+            "from_ha_S"
+        ]
+    },
+    {
+        "input": [
+            "hc",
+            "S"
+        ],
+        "output": "c",
+        "function": [
+            "TriangleEdge",
+            "from_ha_S"
+        ]
+    },
+    {
+        "input": [
+            "p",
+            "r"
+        ],
+        "output": "S",
+        "function": [
+            "TriangleArea",
+            "from_p_r"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "C"
+        ],
+        "output": "ha",
+        "function": [
+            "TriangleHeight",
+            "from_a_C"
+        ]
+    },
+    {
+        "input": [
+            "a",
+            "B"
+        ],
+        "output": "ha",
+        "function": [
+            "TriangleHeight",
+            "from_a_C"
+        ]
+    },
+    {
+        "input": [
+            "b",
+            "C"
+        ],
+        "output": "hb",
+        "function": [
+            "TriangleHeight",
+            "from_a_C"
+        ]
+    },
+    {
+        "input": [
+            "b",
+            "A"
+        ],
+        "output": "hb",
+        "function": [
+            "TriangleHeight",
+            "from_a_C"
+        ]
+    },
+    {
+        "input": [
+            "c",
+            "A"
+        ],
+        "output": "hc",
+        "function": [
+            "TriangleHeight",
+            "from_a_C"
+        ]
+    },
+    {
+        "input": [
+            "c",
+            "B"
+        ],
+        "output": "hc",
+        "function": [
+            "TriangleHeight",
+            "from_a_C"
+        ]
+    },
+    {
+        "input": [
+            "hc",
+            "B"
+        ],
+        "output": "a",
+        "function": [
+            "TriangleEdge",
+            "from_hc_B"
+        ]
+    },
+    {
+        "input": [
+            "hb",
+            "C"
+        ],
+        "output": "a",
+        "function": [
+            "TriangleEdge",
+            "from_hc_B"
+        ]
+    },
+    {
+        "input": [
+            "ha",
+            "C"
+        ],
+        "output": "b",
+        "function": [
+            "TriangleEdge",
+            "from_hc_B"
+        ]
+    },
+    {
+        "input": [
+            "hc",
+            "A"
+        ],
+        "output": "b",
+        "function": [
+            "TriangleEdge",
+            "from_hc_B"
+        ]
+    },
+    {
+        "input": [
+            "ha",
+            "B"
+        ],
+        "output": "c",
+        "function": [
+            "TriangleEdge",
+            "from_hc_B"
+        ]
+    },
+    {
+        "input": [
+            "hb",
+            "A"
+        ],
+        "output": "c",
+        "function": [
+            "TriangleEdge",
+            "from_hc_B"
+        ]
+    }
+]
