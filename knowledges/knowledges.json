@@ -18,7 +18,7 @@
         "output": "B",
         "function": [
             "TriangleAngle",
-            "from_A_B"
+            "from_A_C"
         ]
     },
     {
@@ -29,7 +29,7 @@
         "output": "A",
         "function": [
             "TriangleAngle",
-            "from_A_B"
+            "from_B_C"
         ]
     },
     {
@@ -54,7 +54,7 @@
         "output": "a",
         "function": [
             "TriangleEdge",
-            "from_a_b_C"
+            "from_b_c_A"
         ]
     },
     {
@@ -66,7 +66,7 @@
         "output": "b",
         "function": [
             "TriangleEdge",
-            "from_a_b_C"
+            "from_a_c_B"
         ]
     },
     {
@@ -112,7 +112,7 @@
         "output": "S",
         "function": [
             "TriangleArea",
-            "from_a_ha"
+            "from_b_hb"
         ]
     },
     {
@@ -123,7 +123,7 @@
         "output": "S",
         "function": [
             "TriangleArea",
-            "from_a_ha"
+            "from_c_hc"
         ]
     },
     {
@@ -145,7 +145,7 @@
         "output": "hb",
         "function": [
             "TriangleHeight",
-            "from_a_S"
+            "from_b_S"
         ]
     },
     {
@@ -156,7 +156,7 @@
         "output": "hc",
         "function": [
             "TriangleHeight",
-            "from_a_S"
+            "from_c_S"
         ]
     },
     {
@@ -178,7 +178,7 @@
         "output": "b",
         "function": [
             "TriangleEdge",
-            "from_ha_S"
+            "from_hb_S"
         ]
     },
     {
@@ -189,7 +189,7 @@
         "output": "c",
         "function": [
             "TriangleEdge",
-            "from_ha_S"
+            "from_hc_S"
         ]
     },
     {
@@ -208,7 +208,7 @@
             "a",
             "C"
         ],
-        "output": "ha",
+        "output": "hb",
         "function": [
             "TriangleHeight",
             "from_a_C"
@@ -219,21 +219,21 @@
             "a",
             "B"
         ],
+        "output": "hc",
+        "function": [
+            "TriangleHeight",
+            "from_a_B"
+        ]
+    },
+    {
+        "input": [
+            "b",
+            "C"
+        ],
         "output": "ha",
         "function": [
             "TriangleHeight",
-            "from_a_C"
-        ]
-    },
-    {
-        "input": [
-            "b",
-            "C"
-        ],
-        "output": "hb",
-        "function": [
-            "TriangleHeight",
-            "from_a_C"
+            "from_b_C"
         ]
     },
     {
@@ -241,10 +241,10 @@
             "b",
             "A"
         ],
-        "output": "hb",
+        "output": "hc",
         "function": [
             "TriangleHeight",
-            "from_a_C"
+            "from_b_A"
         ]
     },
     {
@@ -252,10 +252,10 @@
             "c",
             "A"
         ],
-        "output": "hc",
+        "output": "hb",
         "function": [
             "TriangleHeight",
-            "from_a_C"
+            "from_c_A"
         ]
     },
     {
@@ -263,10 +263,10 @@
             "c",
             "B"
         ],
-        "output": "hc",
+        "output": "ha",
         "function": [
             "TriangleHeight",
-            "from_a_C"
+            "from_c_B"
         ]
     },
     {
@@ -288,7 +288,7 @@
         "output": "a",
         "function": [
             "TriangleEdge",
-            "from_hc_B"
+            "from_hb_C"
         ]
     },
     {
@@ -299,7 +299,7 @@
         "output": "b",
         "function": [
             "TriangleEdge",
-            "from_hc_B"
+            "from_ha_C"
         ]
     },
     {
@@ -310,7 +310,7 @@
         "output": "b",
         "function": [
             "TriangleEdge",
-            "from_hc_B"
+            "from_hc_A"
         ]
     },
     {
@@ -321,7 +321,7 @@
         "output": "c",
         "function": [
             "TriangleEdge",
-            "from_hc_B"
+            "from_ha_B"
         ]
     },
     {
@@ -332,7 +332,7 @@
         "output": "c",
         "function": [
             "TriangleEdge",
-            "from_hc_B"
+            "from_hb_A"
         ]
     }
 ]

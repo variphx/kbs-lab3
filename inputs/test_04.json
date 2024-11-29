@@ -1,0 +1,14 @@
+{
+    "input": [
+        "a",
+        "C"
+    ],
+    "input_values":[
+        6,
+        0.52333333333333333333333333333333
+    ],
+    "output": "hb",
+    "output_values": [
+        null
+    ]
+}

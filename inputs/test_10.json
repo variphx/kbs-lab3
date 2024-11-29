@@ -1,0 +1,16 @@
+{
+    "input": [
+        "p",
+        "r",
+        "a"
+    ],
+    "input_values":[
+        10,
+        3,
+        5
+    ],
+    "output": "ha",
+    "output_values": [
+        null
+    ]
+}

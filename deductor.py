@@ -8,7 +8,7 @@ class KnowledgeNetworkDeductor:
 
     def find_path(
         self, start_inputs: Inputs, target_output: Output
-    ) -> list[Output] | None:
+    ) -> list[dict[Inputs, dict[str, any]]] | None:
         """
         Find the shortest path to transform start_inputs to target_output
         using the knowledge network.
@@ -32,7 +32,7 @@ class KnowledgeNetworkDeductor:
                     input_elem in current_inputs.inner for input_elem in inputs.inner
                 ):
                     new_inputs = Inputs(current_inputs.inner.union({data["output"]}))
-                    new_path = path_so_far + [data["output"]]
+                    new_path = path_so_far + [{"inputs": inputs, **data}]
 
                     if data["output"] == target_output:
                         return new_path
@@ -44,9 +44,7 @@ class KnowledgeNetworkDeductor:
 
         return None
 
-    def deduce(
-        self, start_inputs: Inputs, target_output: Output
-    ) -> list[Output] | None:
+    def deduce(self, start_inputs: Inputs, target_output: Output):
         """
         Public method to find the path of transformations.
         """

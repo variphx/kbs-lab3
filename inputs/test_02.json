@@ -1,0 +1,14 @@
+{
+    "input": [
+        "a",
+        "ha"
+    ],
+    "input_values":[
+        4,
+        2
+    ],
+    "output": "S",
+    "output_values": [
+        null
+    ]
+}

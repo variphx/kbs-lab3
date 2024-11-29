@@ -1,6 +1,5 @@
 import typing
 import json
-import itertools
 from pathlib import PurePath
 
 
